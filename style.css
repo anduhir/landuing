@@ -126,3 +126,12 @@ a {
     border: none;
     cursor: pointer;
 }
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
