@@ -26,6 +26,10 @@ header {
     margin-left: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .welcome-text {
     background-image: url('background.jpg');
     background-size: cover;
@@ -102,6 +106,15 @@ header {
     align-items: center;
 }
 
-a {
-    text-decoration: none;
+.container h2, .container h3 {
+    color: #2ed328;
+}
+  
+.container form {
+    margin-top: 20px;
+}
+  
+.container input[type="email"] {
+    padding: 10px;
+    width: 300px;
 }
