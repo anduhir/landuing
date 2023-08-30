@@ -93,6 +93,15 @@ header {
     align-items: center;
 }
 
+.newsletter {
+    background-image: url('background4.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a {
     text-decoration: none;
 }
