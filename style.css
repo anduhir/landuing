@@ -26,8 +26,21 @@ header {
     margin-left: 20px;
 }
 
-a {
+a:link {
     text-decoration: none;
+    color: slategray;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
 }
 
 .welcome-text {
@@ -107,7 +120,7 @@ a {
 }
 
 .container h2, .container h3 {
-    color: #2ed328;
+    color: slategray;
 }
   
 .container form {
