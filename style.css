@@ -7,10 +7,12 @@ body {
 }
 
 header {
+    color:#ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background: hsl(0, 0%, 12%);
 }
 
 .logo img {
@@ -46,6 +48,7 @@ a:active {
 .welcome-text {
     background-image: url('background.jpg');
     background-size: cover;
+    background: darkblue;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -59,11 +62,24 @@ a:active {
 }
 
 .signIn {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+        border-radius: 25px;
+        padding: 15px;
+        font-size: 13px;
+        font-weight:bold;
+        background-color:transparent;
+        border: 2px solid #c7ccd4;
+        color:#c7ccd4;
+        cursor: pointer;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+}
+
+button:hover {
+    color: #f2f4f7;
+    background-color:#20252e80;
+    transform: scale(1.05) perspective(1px);
 }
 
 .box-images {
@@ -73,11 +89,13 @@ a:active {
     justify-content: center;
     align-items: center;
     padding: 50px 0;
+    background: slateblue;
 }
 
 .box {
     position: relative;
     margin: 10px;
+    background-color: #f2f4f7;
 }
   
 .box img {
@@ -108,6 +126,7 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: purple;
 }
 
 .newsletter {
@@ -133,11 +152,18 @@ a:active {
 }
 
 .container button[type="submit"] {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 13px;
+    font-weight:bold;
+    background-color:transparent;
+    border: 2px solid #c7ccd4;
+    color:#c7ccd4;
     cursor: pointer;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 footer {
@@ -146,7 +172,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    background: hsl(0, 0%, 12%);
+    color:#ffffff;
 }
 
 .social-links a {
