@@ -13,10 +13,29 @@ header {
     padding: 20px;
 }
 
-a {
-    text-decoration: none;
+.logo img {
+    height: 50px;
 }
 
-ul {
+.links ul {
     list-style: none;
+    display: flex;
+}
+  
+.links ul li {
+    margin-left: 20px;
+}
+
+.welcome-text {
+    background-image: url('background.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
 }
