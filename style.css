@@ -58,6 +58,32 @@ header {
     padding: 50px 0;
 }
 
+.box {
+    position: relative;
+    margin: 10px;
+}
+  
+.box img {
+    width: 200px;
+    height: 200px;
+}
+  
+.box .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.box:hover .info {
+    opacity: 1;
+}
+
 a {
     text-decoration: none;
 }
