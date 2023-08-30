@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
+    background-image: linear-gradient(#051b33 25%,#02050a 75%);
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -48,7 +49,6 @@ a:active {
 .welcome-text {
     background-image: url('background.jpg');
     background-size: cover;
-    background: darkblue;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -62,18 +62,18 @@ a:active {
 }
 
 .signIn {
-        border-radius: 25px;
-        padding: 15px;
-        font-size: 13px;
-        font-weight:bold;
-        background-color:transparent;
-        border: 2px solid #c7ccd4;
-        color:#c7ccd4;
-        cursor: pointer;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 13px;
+    font-weight:bold;
+    background-color:transparent;
+    border: 2px solid #c7ccd4;
+    color:#c7ccd4;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 button:hover {
@@ -82,70 +82,82 @@ button:hover {
     transform: scale(1.05) perspective(1px);
 }
 
-.box-images {
-    background-image: url('background2.jpg');
-    background-size: cover;
+.mid {
+    font-family: 'Montserrat', sans-serif;
+    color:#000308;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.playlist {
+    border-radius: 5px;  
+}
+
+.playcards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.content-info {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
-    background: slateblue;
-}
-
-.box {
-    position: relative;
-    margin: 10px;
-    background-color: #f2f4f7;
+    text-align: center;
 }
   
-.box img {
-    width: 200px;
-    height: 200px;
-}
-  
-.box .info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 10px;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-  
-.box:hover .info {
-    opacity: 1;
+.info {
+    display: flex;
+    text-align: center;
+    gap: 300px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .quote {
+    font-family: 'Montserrat', sans-serif;
+    color:#ffffff;
+    font-size: 32px;
     background-image: url('background3.jpg');
     background-size: cover;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: purple;
 }
 
 .newsletter {
-    background-image: url('background4.jpg');
-    background-size: cover;
-    height: 300px;
+    background-image: linear-gradient(black, rgb(5, 10, 15));
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color:#ffffff;
+    font-size: 32px;
 }
 
-.container h2, .container h3 {
-    color: slategray;
+.newscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    background-image:linear-gradient(rgb(31, 46, 56), rgb(9, 15, 26));
+    border-radius:15px ;
+    opacity: 0.95;
+    width: 35%;
 }
-  
-.container form {
-    margin-top: 20px;
-}
-  
+
 .container input[type="email"] {
     padding: 10px;
     width: 300px;
