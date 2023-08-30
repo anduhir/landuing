@@ -84,6 +84,15 @@ header {
     opacity: 1;
 }
 
+.quote {
+    background-image: url('background3.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a {
     text-decoration: none;
 }
