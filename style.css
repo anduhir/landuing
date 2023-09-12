@@ -50,6 +50,7 @@ body {
 .sign-up {
     padding: 15px 30px;
     font-size: 18px;
+    font-weight: 600;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
     color: #fff;
     background-color: #FFB5B7;
@@ -109,7 +110,15 @@ body {
 
 .feature iframe {
     width: 100%;
-    height: 300px;
+    height: 360px;
+}
+
+.feature-text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    color: #fff; 
 }
 
 .quote {
@@ -169,6 +178,7 @@ body {
 .roll-initiative {
     padding: 15px 30px;
     font-size: 18px;
+    font-weight: 600;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
     color: #fff;
     background-color: #FFB5B7;
